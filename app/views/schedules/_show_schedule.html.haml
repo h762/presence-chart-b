@@ -1,0 +1,16 @@
+.BaseShow
+  .BaseShow__schedule
+    .BaseShow__schedule__title
+      今日の予定
+    .BaseShow__schedule__digest
+      ダイジェスト
+    .BaseShow__schedule__btnArea
+      .BaseShow__schedule__btnArea__previousDay
+        = link_to "#", class: "BaseShow__schedule__btnArea__previousDay__btn" do
+          前日
+      .BaseShow__schedule__btnArea__detail
+        = link_to "#", class: "BaseShow__schedule__btnArea__detail__btn" do
+          詳細
+      .BaseShow__schedule__btnArea__nextDay
+        = link_to "#", class: "BaseShow__schedule__btnArea__nextDay__btn" do
+          翌日

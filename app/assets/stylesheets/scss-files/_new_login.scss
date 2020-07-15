@@ -1,0 +1,32 @@
+.BaseNew{
+  &__login{
+    width: 50vw;
+    background-color: lightblue;
+    height: 100vh;
+    position: relative;
+    &__area{
+      &__title{
+        font-size: 50px;
+        margin: 200px 0 50px 0;
+        text-align: center;
+      }
+      &__name{
+        font-size: 25px;
+        text-align: center;
+        margin: 100px 0 30px 0;
+      }
+      &__pass{
+        font-size: 25px;
+        text-align: center;
+      }
+      &__loginBtn{
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        right: 65%;
+        left: 35%;
+        bottom: 25px;
+      }
+    }
+  }
+}

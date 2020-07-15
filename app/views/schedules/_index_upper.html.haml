@@ -1,0 +1,16 @@
+.Top
+  .Top__upper
+    = link_to edit_user_path(current_user), class: "Top__upper__loginBtn" do
+      ログイン
+  .Top__middle
+    .Top__middle__date
+      -# = render "today"
+      -# = Time.now
+      %input#today{:type => "date"}/
+    .Top__middle__title
+      タイトル
+  .Top__bottom
+    = link_to "#", class: "Top__bottom__previousDayBtn" do
+      前日
+    = link_to "#", class: "Top__bottom__nextDayBtn" do
+      翌日

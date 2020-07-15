@@ -1,0 +1,19 @@
+.BaseNew
+  .BaseNew__newEntry
+    .BaseNew__newEntry__title
+      新規登録
+    = form_with url:"#", class: "BaseNew__newEntry__area__form" do |i|
+      .BaseNew__newEntry__form__name
+        name : 
+        = i.text_field :name, placeholder: "name"
+      .BaseNew__newEntry__form__email
+        email :
+        = i.text_field :email, placeholder: "email"
+      .BaseNew__newEntry__form__pass
+        password : 
+        = i.text_field :password, placeholder: "password"
+      .BaseNew__newEntry__form__again
+        password again : 
+        = i.text_field :password_again, placeholder: "again"
+    = form_with url:"#", class: "BaseNew__newEntry__entry" do |k|
+      = k.submit "登録", class: "BaseNew__newEntry__entry__btn"

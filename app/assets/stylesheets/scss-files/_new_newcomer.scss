@@ -1,0 +1,48 @@
+.BaseNew{
+  display: flex;
+  &__newEntry{
+    width: 50vw;
+    justify-content: center;
+    background-color: lightgreen;
+    height: 100vh;
+    display: block;
+    position: relative;
+    &__title{
+      margin: 200px 0 50px 0;
+      font-size: 50px;
+      text-align: center;
+    }
+    &__form{
+      &__name{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      &__email{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      &__pass{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      &__again{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+    }
+    &__entry{
+      margin: 0 0 10px 0;
+      position: absolute;
+        right: 65%;
+        left: 35%;
+        bottom: 20px;
+      &__btn{
+        font-size: 35px;
+      }
+    }
+  }
+}

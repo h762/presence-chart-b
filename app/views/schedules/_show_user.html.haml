@@ -1,0 +1,14 @@
+.BaseShow
+  .BaseShow__user
+    .BaseShow__user__name
+      ユーザーネーム
+      = link_to "#", class:"BaseShow__user__name__edit" do
+        編集
+    .BaseShow__user__photo
+      = form_with url:"#", class: "BaseShow__user__photo__step" do |k|
+        = k.file_field :photo, class: "BaseShow__user__photo__step__edit"
+    .BaseShow__user__message
+      = form_with url:"#", class: "BaseShow__user__message__form" do |i|
+        = i.text_area :message, placeholder: "message", class:"BaseShow__user__message__form__space"
+    .BaseShow__user__comment
+      コメントスペース

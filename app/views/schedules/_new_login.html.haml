@@ -1,0 +1,13 @@
+.BaseNew
+  .BaseNew__login
+    = form_with url:"#", class: "BaseNew__login__area" do |i|
+      .BaseNew__login__area__title
+        ログイン
+      .BaseNew__login__area__name
+        name : 
+        = i.text_field :name, placeholder: "name"
+      .BaseNew__login__area__pass
+        password : 
+        = i.text_field :password, placeholder: "password"
+      .BaseNew__login__area__loginBtn
+        = i.submit "ログイン"

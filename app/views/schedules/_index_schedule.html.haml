@@ -1,0 +1,10 @@
+.Bottom
+  .Bottom__user
+    name
+    - @user.each do |i|
+      .Bottom__user__nameBox
+        = link_to "#", class: "Bottom__user__nameBox__name" do
+          = i.name
+  .Bottom__schedule
+    .Bottom__schedule__body
+      = render "chart"
