@@ -6,7 +6,7 @@ class User < ApplicationRecord
 
   has_many :schedules, through: :user_schedules
   has_many :user_schedules
-  # belongs_to :ownpage
+  belongs_to :ownpage
 
   validates :name, presence: true, uniqueness: true
 end
