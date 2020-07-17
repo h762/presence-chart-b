@@ -32,6 +32,8 @@
 |------|----|-------|
 |image|string|------|
 |content|text|------|
+|user_id|integer|---|
+|schedule_id|integer|--|
 
 ## Association
 

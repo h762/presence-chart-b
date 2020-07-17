@@ -2,7 +2,7 @@
   &__schedule{
     height: 100vh;
     width: 50vw;
-    background-color: rgb(192, 160, 160);
+    background-color: rgb(248, 226, 226);
     position: relative;
     &__title{
       border: 1px solid black;
@@ -27,7 +27,7 @@
           text-decoration: none;
           position: absolute;
           bottom: 50px;
-          left: 50%;
+          left: 43%;
         }
       }
       &__nextDay{

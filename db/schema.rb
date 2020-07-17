@@ -18,6 +18,8 @@ ActiveRecord::Schema.define(version: 2020_07_16_032156) do
   create_table "ownpages", force: :cascade do |t|
     t.string "image"
     t.text "content"
+    t.integer "user_id"
+    t.integer "schedule_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

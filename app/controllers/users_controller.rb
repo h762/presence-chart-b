@@ -16,9 +16,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    user = User.find(params[:id])
-    @name = current_user.name
-    @ownpage = current_user.ownpage
+    # user = User.find(:user_id)
+    # @name = user.name
   end
 
   private
