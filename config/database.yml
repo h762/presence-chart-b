@@ -83,3 +83,5 @@ production:
   database: presence_chart_production
   username: presence_chart
   password: <%= ENV['PRESENCE_CHART_DATABASE_PASSWORD'] %>
+  encoding: unicode
+  pool: 5
