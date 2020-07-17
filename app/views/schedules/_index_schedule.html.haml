@@ -3,8 +3,9 @@
     name
     - @user.each do |i|
       .Bottom__user__nameBox
-        = link_to user_ownpage_path(i.id), method: :show, class: "Bottom__user__nameBox__name" do
+        = link_to "#", class: "Bottom__user__nameBox__name" do
           = i.name
   .Bottom__schedule
     .Bottom__schedule__body
       = render "chart"
+-# user_ownpage_path(i.id), method: :show
