@@ -16,8 +16,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    # user = User.find(:user_id)
-    # @name = user.name
+    user = User.find(:user_id)
+    @name = user.name
   end
 
   private

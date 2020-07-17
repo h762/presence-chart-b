@@ -1,11 +1,9 @@
 .Top
   .Top__upper
     = link_to edit_user_path(current_user), class: "Top__upper__loginBtn" do
-      ログイン
+      出入口
   .Top__middle
     .Top__middle__date
-      -# = render "today"
-      -# = Time.now
       %input#today{:type => "date"}/
     .Top__middle__title
       タイトル

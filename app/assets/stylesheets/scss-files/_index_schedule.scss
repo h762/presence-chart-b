@@ -1,21 +1,28 @@
-.Bottom{
-  display: flex;
-  &__user{
-    font-size: 20px;
-    width: 90px;
-    &__nameBox{
-      flex-direction: column;
-      border: 1px solid black;
+.Base{
+  background-color: rgb(27, 130, 214);
+  height: 100vh;
+  width: 100vw;
+  .Bottom{
+    display: flex;
+    &__user{
+      background-color: white;
       font-size: 20px;
-      &__name{
-        text-decoration: none;
+      width: 90px;
+      &__nameBox{
+        flex-direction: column;
+        border: 1px solid black;
+        font-size: 20px;
+        &__name{
+          text-decoration: none;
+        }
       }
     }
-  }
-  &__schedule{
-    &__target{
-      &__chartBtnA1{
-        text-decoration: none;
+    &__schedule{
+      background-color: white;
+      &__target{
+        &__chartBtnA1{
+          text-decoration: none;
+        }
       }
     }
   }
