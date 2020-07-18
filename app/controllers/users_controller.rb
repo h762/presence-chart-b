@@ -17,8 +17,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.new
-    @user = User.all
+    user = User.find(params[:id])
+    @name = user.name
   end
 
   private
