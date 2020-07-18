@@ -1,7 +1,12 @@
 class OwnpagesController < ApplicationController
+  before_action :set_user, only: [:show]
 
   def show
-    @user = current_user.find(params[:id])
-    @ownpage = current_user.ownpage
   end
+
+  private
+
+    def set_user
+      @user = Ownpage.find([:id])
+    end
 end
