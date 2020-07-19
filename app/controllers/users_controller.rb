@@ -20,6 +20,8 @@ class UsersController < ApplicationController
     user = User.find(params[:id])
     @name = user.name
     @ll = user.id
+    @pp = user
+    user_id = @ll
   end
 
   private

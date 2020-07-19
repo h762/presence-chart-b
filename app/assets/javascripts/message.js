@@ -1137,4 +1137,82 @@ $(function(){
     $(this).text(result);
   });
 
+
+  $('.chartBtnS1').click(function(e){
+    e.preventDefault()
+    var target = $(this).text();
+    if (target.match(/□/)){
+      var result = target.replace("□", "■");
+    }
+    else {
+      var result = target.replace("■", "□");
+    }
+    $(this).text(result);
+  });
+  $('.chartBtnS2').click(function(e){
+    e.preventDefault()
+    var target = $(this).text();
+    if (target.match(/□/)){
+      var result = target.replace("□", "■");
+    }
+    else {
+      var result = target.replace("■", "□");
+    }
+    $(this).text(result);
+  });
+  $('.chartBtnS3').click(function(e){
+    e.preventDefault()
+    var target = $(this).text();
+    if (target.match(/□/)){
+      var result = target.replace("□", "■");
+    }
+    else {
+      var result = target.replace("■", "□");
+    }
+    $(this).text(result);
+  });
+  $('.chartBtnS4').click(function(e){
+    e.preventDefault()
+    var target = $(this).text();
+    if (target.match(/□/)){
+      var result = target.replace("□", "■");
+    }
+    else {
+      var result = target.replace("■", "□");
+    }
+    $(this).text(result);
+  });
+  $('.chartBtnS5').click(function(e){
+    e.preventDefault()
+    var target = $(this).text();
+    if (target.match(/□/)){
+      var result = target.replace("□", "■");
+    }
+    else {
+      var result = target.replace("■", "□");
+    }
+    $(this).text(result);
+  });
+  $('.chartBtnS6').click(function(e){
+    e.preventDefault()
+    var target = $(this).text();
+    if (target.match(/□/)){
+      var result = target.replace("□", "■");
+    }
+    else {
+      var result = target.replace("■", "□");
+    }
+    $(this).text(result);
+  });
+  $('.chartBtnS7').click(function(e){
+    e.preventDefault()
+    var target = $(this).text();
+    if (target.match(/□/)){
+      var result = target.replace("□", "■");
+    }
+    else {
+      var result = target.replace("■", "□");
+    }
+    $(this).text(result);
+  });
 });
