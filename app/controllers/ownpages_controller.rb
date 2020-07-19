@@ -7,9 +7,8 @@ class OwnpagesController < ApplicationController
   private
 
     def set_user
-      ownpage = User.find(params)
-      @name = ownpage.name
-      # binding.pry
+      user = User.find(params[:id])
+      @name = user.name
     end
 
 end

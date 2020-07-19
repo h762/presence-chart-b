@@ -3,7 +3,7 @@
     name
     - @user.each do |i|
       .Bottom__user__nameBox
-        = link_to user_path(@user.ids), class: "Bottom__user__nameBox__name" do
+        = link_to user_path(i.id), class: "Bottom__user__nameBox__name" do
           = i.name
   .Bottom__schedule
     .Bottom__schedule__body
