@@ -2,7 +2,7 @@
   .BaseShow__user
     .BaseShow__user__name
       = @user.name
-      = link_to edit_user_ownpage_path, class:"BaseShow__user__name__edit" do
+      = link_to new_user_ownpage_path, class:"BaseShow__user__name__edit" do
         編集
     .BaseShow__user__photo
       = form_with url:"#", class: "BaseShow__user__photo__step" do |k|
