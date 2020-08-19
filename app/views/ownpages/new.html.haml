@@ -1,5 +1,5 @@
 .BaseEdit
-  = form_with(model: @ownpage, local: true) do |i|
+  = form_with(url: "/users/:user_id/ownpage", local: true) do |i|
     .BaseEdit__user
       .BaseEdit__name
         = @user.name

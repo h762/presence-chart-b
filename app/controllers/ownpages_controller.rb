@@ -3,12 +3,13 @@ class OwnpagesController < ApplicationController
 
   def new
     # binding.pry
-    @ownpage = Ownpage.new
+    # @ownpage = Ownpage.new
     # @ownpage = @user.ownpage.new
   end
 
   def create
     binding.pry
+    
   end
   
   def show
