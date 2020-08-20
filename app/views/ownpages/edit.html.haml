@@ -1,5 +1,5 @@
 .BaseEdit
-  = form_with(model: @ownpage, method: :post, local: true)do |i|
+  = form_with(model: @user_ownpage, method: :post, local: true)do |i|
     .BaseEdit__user
       .BaseEdit__name
         = @user.name
@@ -9,7 +9,7 @@
           = i.file_field :photo, class: "BaseEdit__edit"
       .BaseEdit__message
         .BaseEdit__space
-          = i.text_area :message, placeholder: "message", class:"BaseEdit__textArea"
+          = i.text_area :content, placeholder: "message", class:"BaseEdit__textArea"
       .BaseEdit__comment
         コメントスペース
       

@@ -3,11 +3,12 @@ class OwnpagesController < ApplicationController
 
   def new
     # binding.pry
-    # @ownpage = Ownpage.new
+    @ownpage = Ownpage.new
     # @ownpage = @user.ownpage.new
   end
 
   def create
+    @ownpage = Ownpage.new(ownpage_params)
     binding.pry
     
   end
@@ -30,5 +31,9 @@ class OwnpagesController < ApplicationController
     def set_user
       @user = User.find(params[:user_id])
       @name = @user.name
+    end
+
+    def ownpage_params
+      params.require(:ownpage).permit(:photo, :content).merge(user_id: current_user.id)
     end
 end
