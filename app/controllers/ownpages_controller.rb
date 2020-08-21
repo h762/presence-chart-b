@@ -9,11 +9,6 @@ class OwnpagesController < ApplicationController
 
   def create
     @ownpage = Ownpage.new(ownpage_params)
-    if @ownpage.save
-      redirect_to root_path, notice: "ok"
-    else
-      redirect_to new_user_ownpage_path, notice: "no"
-    end
   end
   
   def show
@@ -23,10 +18,17 @@ class OwnpagesController < ApplicationController
   end
 
   def edit
-    @ownpage = Ownpage.new
+    # @ownpage = Ownpage.new
+    @ownpage = Ownpage.find(params[:user_id])
   end
 
-  def upload
+  def update
+    # @ownpage = Ownpage.new(ownpage_params)
+    # if @ownpage.update(ownpage_params)
+    #   redirect_to root_path, notice: "ok"
+    # else
+    #   redirect_to new_user_ownpage_path, notice: "no"
+    # end
   end
 
   private
