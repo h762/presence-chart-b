@@ -9,8 +9,11 @@ class OwnpagesController < ApplicationController
 
   def create
     @ownpage = Ownpage.new(ownpage_params)
-    binding.pry
-    
+    if @ownpage.save
+      redirect_to root_path, notice: "ok"
+    else
+      redirect_to new_user_ownpage_path, notice: "no"
+    end
   end
   
   def show
@@ -34,6 +37,6 @@ class OwnpagesController < ApplicationController
     end
 
     def ownpage_params
-      params.require(:ownpage).permit(:photo, :content).merge(user_id: current_user.id)
+      params.require(:ownpage).permit(:image, :content).merge(user_id: current_user.id)
     end
 end
