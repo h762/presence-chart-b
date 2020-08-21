@@ -23,6 +23,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -36,6 +37,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -49,6 +51,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -61,6 +64,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -74,6 +78,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -87,6 +92,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -100,6 +106,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -112,6 +119,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -125,6 +133,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -138,6 +147,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -151,6 +161,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -163,6 +174,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -176,6 +188,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -189,6 +202,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -202,6 +216,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -214,6 +229,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -227,6 +243,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -240,6 +257,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -253,6 +271,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -265,6 +284,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -278,6 +298,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -291,6 +312,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -304,6 +326,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -317,6 +340,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -330,6 +354,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -343,6 +368,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -356,6 +382,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -368,6 +395,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -381,6 +409,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -394,6 +423,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -407,6 +437,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -419,6 +450,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -432,6 +464,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -445,6 +478,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -458,6 +492,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -471,6 +506,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -484,6 +520,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -497,6 +534,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -509,6 +547,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -522,6 +561,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -535,6 +575,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -548,6 +589,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -561,6 +603,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -574,6 +617,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -587,6 +631,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -600,6 +645,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -613,6 +659,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -626,6 +673,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -639,6 +687,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -652,6 +701,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -665,6 +715,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -677,6 +728,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -690,6 +742,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -703,6 +756,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -716,6 +770,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -728,6 +783,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -741,6 +797,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -754,6 +811,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -767,6 +825,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -780,6 +839,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -793,6 +853,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -806,6 +867,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -818,6 +880,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -831,6 +894,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -844,6 +908,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -857,6 +922,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -870,6 +936,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -883,6 +950,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -896,6 +964,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -909,6 +978,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -922,6 +992,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -935,6 +1006,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -948,6 +1020,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -961,6 +1034,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -974,6 +1048,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -986,6 +1061,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -999,6 +1075,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1012,6 +1089,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1025,6 +1103,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1037,6 +1116,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1050,6 +1130,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1063,6 +1144,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1076,6 +1158,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1089,6 +1172,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1102,6 +1186,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1115,6 +1200,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1127,6 +1213,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1140,6 +1227,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1153,6 +1241,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1166,6 +1255,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1179,6 +1269,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1192,6 +1283,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1205,6 +1297,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1218,6 +1311,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1231,6 +1325,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1245,6 +1340,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1257,6 +1353,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1269,6 +1366,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1281,6 +1379,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1293,6 +1392,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1305,6 +1405,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -1317,6 +1418,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
