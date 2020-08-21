@@ -3,10 +3,13 @@ $(function(){
     e.preventDefault()
     var target = $(this).text();
     if (target.match(/□/)){
+      console.log(this)
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
+      $(this).parent().css({"background-color": "white"});
     }
     $(this).text(result);
   });
@@ -16,6 +19,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -28,6 +32,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -40,6 +45,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -51,6 +57,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -63,6 +70,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -75,6 +83,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -87,6 +96,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -98,6 +108,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -110,6 +121,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -122,6 +134,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -134,6 +147,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -145,6 +159,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -157,6 +172,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -169,6 +185,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -181,6 +198,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -192,6 +210,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -204,6 +223,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -216,6 +236,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -228,6 +249,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -239,6 +261,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -251,6 +274,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -263,6 +287,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -275,6 +300,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -287,6 +313,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -299,6 +326,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -311,6 +339,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -323,6 +352,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -334,6 +364,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -346,6 +377,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -358,6 +390,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -370,6 +403,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -381,6 +415,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -393,6 +428,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -405,6 +441,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -417,6 +454,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -429,6 +467,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -441,6 +480,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -453,6 +493,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -464,6 +505,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -476,6 +518,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -488,6 +531,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -500,6 +544,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -512,6 +557,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -524,6 +570,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -536,6 +583,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -548,6 +596,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -560,6 +609,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -572,6 +622,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -584,6 +635,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -596,6 +648,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -608,6 +661,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -619,6 +673,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -631,6 +686,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -643,6 +699,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -655,6 +712,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -666,6 +724,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -678,6 +737,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -690,6 +750,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -702,6 +763,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -714,6 +776,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -726,6 +789,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -738,6 +802,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -749,6 +814,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -761,6 +827,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -773,6 +840,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -785,6 +853,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -797,6 +866,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -809,6 +879,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -821,6 +892,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -833,6 +905,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -845,6 +918,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -857,6 +931,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -869,6 +944,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -881,6 +957,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -893,6 +970,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -904,6 +982,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -916,6 +995,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -928,6 +1008,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -940,6 +1021,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -951,6 +1033,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -963,6 +1046,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -975,6 +1059,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -987,6 +1072,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -999,6 +1085,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1011,6 +1098,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1023,6 +1111,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1034,6 +1123,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1046,6 +1136,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1058,6 +1149,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1070,6 +1162,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1082,6 +1175,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1094,6 +1188,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1106,6 +1201,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1118,6 +1214,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1130,6 +1227,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1143,6 +1241,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1154,6 +1253,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1165,6 +1265,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1176,6 +1277,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1187,6 +1289,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1198,6 +1301,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
@@ -1209,6 +1313,7 @@ $(function(){
     var target = $(this).text();
     if (target.match(/□/)){
       var result = target.replace("□", "■");
+      $(this).parent().css({"background-color": "red"});
     }
     else {
       var result = target.replace("■", "□");
