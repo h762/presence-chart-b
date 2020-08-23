@@ -1,13 +1,10 @@
-.Notification {
-  .notice {
-    background-color: #38AEF0;
-    color: #fff;
-    text-align: center;
+.flash {
+  color: white;
+  text-align: center;
+  &__alert{
+    background-color: red;
   }
-
-  .alert {
-    background-color: #F35500;
-    color: #fff;
-    text-align: center;
+  &__notice {
+    background-color: blue;
   }
 }

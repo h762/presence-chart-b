@@ -1,0 +1,15 @@
+.BaseEdit
+  = form_with(url: "/users/:user_id/ownpage", model: @ownpage, method: :post, local: true) do |i|
+    .BaseEdit__user
+      .BaseEdit__name
+        = @user.name
+        = i.submit "更新", method: :post, class: "BaseEdit__send"
+      .BaseEdit__photo
+        .BaseEdit__step
+          = i.file_field :photo, class: "BaseEdit__edit"
+      .BaseEdit__message
+        .BaseEdit__space
+          = i.text_area :content, placeholder: "message", class:"BaseEdit__textArea"
+      .BaseEdit__comment
+        コメントスペース
+      
