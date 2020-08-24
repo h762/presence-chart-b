@@ -23,8 +23,7 @@ class OwnpagesController < ApplicationController
   end
 
   def update
-    # binding.pry
-    # @ownpage = Ownpage.new(ownpage_params)
+    binding.pry
     # @ownpage = Ownpage.find(params[:user_id])
     # if @ownpage.update(ownpage_params)
     #   redirect_to root_path, notice: "ok"
