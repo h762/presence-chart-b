@@ -12,13 +12,15 @@ class OwnpagesController < ApplicationController
   end
   
   def show
+    @ownpage = Ownpage.find(current_user.id)
     # @ownpage = @user.ownpage.find(params[:id])
     # @user = User.find(params[:user_id])
     # @name = @user.name
   end
 
   def edit
-    @ownpage = Ownpage.find(params[:user_id])
+    # @ownpage = Ownpage.find(params[:user_id])
+    @ownpage = Ownpage.find(current_user.id)
   end
 
   def update

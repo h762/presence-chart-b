@@ -12,7 +12,10 @@
       -# .BaseShow__user__message__form
       -#   .BaseShow__user__message__form__space
       -#     = @ownpage.content
-      = form_with url:"#", class: "BaseShow__user__message__form" do |i|
-        = i.text_area :message, placeholder: "message", class:"BaseShow__user__message__form__space"
+      -# = form_with url:"#", class: "BaseShow__user__message__form" do |i|
+      -#   = i.text_area :message, placeholder: "message", class:"BaseShow__user__message__form__space"
+      .BaseShow__user__message__form
+        .BaseShow__user__message__form__space
+          = @ownpage.content
     .BaseShow__user__comment
       コメントスペース
