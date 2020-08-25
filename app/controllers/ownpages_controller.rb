@@ -18,18 +18,18 @@ class OwnpagesController < ApplicationController
   end
 
   def edit
-    # @ownpage = Ownpage.new
     @ownpage = Ownpage.find(params[:user_id])
   end
 
   def update
-    binding.pry
-    # @ownpage = Ownpage.find(params[:user_id])
-    # if @ownpage.update(ownpage_params)
-    #   redirect_to root_path, notice: "ok"
-    # else
-    #   redirect_to new_user_ownpage_path, notice: "no"
-    # end
+    # binding.pry
+    @ownpage = Ownpage.find(current_user.id)
+    # @ownpage = Ownpage.find(params[:id])
+    if @ownpage.update(ownpage_params)
+      redirect_to root_path, notice: "ok"
+    else
+      redirect_to new_user_ownpage_path, notice: "no"
+    end
   end
 
   private
