@@ -1340,7 +1340,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
-      $(this).parent().css({"background-color": "white"});
+      $(this).parent().css({"background-color": "rgb(248, 226, 226)"});
     }
     $(this).text(result);
   });
@@ -1353,7 +1353,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
-      $(this).parent().css({"background-color": "white"});
+      $(this).parent().css({"background-color": "rgb(248, 226, 226)"});
     }
     $(this).text(result);
   });
@@ -1366,7 +1366,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
-      $(this).parent().css({"background-color": "white"});
+      $(this).parent().css({"background-color": "rgb(248, 226, 226)"});
     }
     $(this).text(result);
   });
@@ -1379,7 +1379,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
-      $(this).parent().css({"background-color": "white"});
+      $(this).parent().css({"background-color": "rgb(248, 226, 226)"});
     }
     $(this).text(result);
   });
@@ -1392,7 +1392,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
-      $(this).parent().css({"background-color": "white"});
+      $(this).parent().css({"background-color": "rgb(248, 226, 226)"});
     }
     $(this).text(result);
   });
@@ -1405,7 +1405,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
-      $(this).parent().css({"background-color": "white"});
+      $(this).parent().css({"background-color": "rgb(248, 226, 226)"});
     }
     $(this).text(result);
   });
@@ -1418,7 +1418,7 @@ $(function(){
     }
     else {
       var result = target.replace("■", "□");
-      $(this).parent().css({"background-color": "white"});
+      $(this).parent().css({"background-color": "rgb(248, 226, 226)"});
     }
     $(this).text(result);
   });
