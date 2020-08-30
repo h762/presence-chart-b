@@ -14,9 +14,9 @@ class OwnpagesController < ApplicationController
   end
   
   def show
-    if Ownpage.find(current_user.id).present?
-      redirect_to new_user_ownpage_path
-    end
+    # if Ownpage.find(current_user.id).present?
+    #   redirect_to new_user_ownpage_path
+    # end
     @ownpage = Ownpage.find(current_user.id)
     # @ownpage = @user.ownpage.find(params[:id])
     # @user = User.find(params[:user_id])
@@ -52,7 +52,7 @@ class OwnpagesController < ApplicationController
     end
 
     def make_ownpage
-      redirect_to action: :new if Ownpage.find(current_user.id).nil?
+      # redirect_to action: :new if Ownpage.find(current_user.id).nil?
       # if @user.name == current_user.name
       #   redirect_to action: :new if Ownpage.find(current_user.id).nil?
       # end
