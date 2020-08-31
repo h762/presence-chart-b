@@ -11,16 +11,20 @@ class OwnpagesController < ApplicationController
 
   def create
     @ownpage = Ownpage.new(ownpage_params)
+    if @ownpage.save
+      redirect_to root_path, notice: "ok"
+    else
+      redirect_to root_path, notice: "no"
+    end
   end
   
   def show
-    # if Ownpage.find(current_user.id).present?
-    #   redirect_to new_user_ownpage_path
-    # end
-    @ownpage = Ownpage.find(current_user.id)
-    # @ownpage = @user.ownpage.find(params[:id])
+    unless Ownpage.find(current_user.id).present?
+      redirect_to new_user_ownpage_path
+    end
+    # @ownpage = Ownpage.find(current_user.id)
     # @user = User.find(params[:user_id])
-    # @name = @user.name
+    @ownpage = Ownpage.find(params[:user_id])
   end
 
   def edit
