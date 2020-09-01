@@ -1,0 +1,44 @@
+.BaseShow
+  .BaseShow__user
+    .BaseShow__user__name
+      = @user.name
+      - if @user.id == current_user.id
+        - if @ownpage.content != nil || @ownpage.image.persisted?
+          = link_to edit_user_ownpage_path, class:"BaseShow__user__name__edit" do
+            編集
+        -# - else
+        -#   = link_to new_user_ownpage_path, class: "BaseShow__user__name__edit" do
+        -#     編集
+    .BaseShow__user__photo
+      .BaseShow__user__photo__step
+        .BaseShow__user__photo__step__edit
+          no image
+      -# = form_with url:"#", class: "BaseShow__user__photo__step" do |k|
+      -#   = k.file_field :photo, class: "BaseShow__user__photo__step__edit"
+    .BaseShow__user__message
+      -# .BaseShow__user__message__form
+      -#   .BaseShow__user__message__form__space
+      -#     = @ownpage.content
+      -# = form_with url:"#", class: "BaseShow__user__message__form" do |i|
+      -#   = i.text_area :message, placeholder: "message", class:"BaseShow__user__message__form__space"
+      .BaseShow__user__message__form
+        .BaseShow__user__message__form__space
+          message
+    .BaseShow__user__comment
+      コメントスペース
+
+  .BaseShow__schedule
+    .BaseShow__schedule__title
+      今日の予定
+    .BaseShow__schedule__digest
+      = render "chartShort"
+    .BaseShow__schedule__btnArea
+      .BaseShow__schedule__btnArea__previousDay
+        = link_to "#", class: "BaseShow__schedule__btnArea__previousDay__btn" do
+          前日
+      .BaseShow__schedule__btnArea__detail
+        = link_to root_path, class: "BaseShow__schedule__btnArea__detail__btn" do
+          詳細
+      .BaseShow__schedule__btnArea__nextDay
+        = link_to "#", class: "BaseShow__schedule__btnArea__nextDay__btn" do
+          翌日
