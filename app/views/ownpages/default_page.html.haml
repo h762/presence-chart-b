@@ -4,8 +4,8 @@
       = @user.name
       - if @user.id == current_user.id
         - if @ownpage.content != nil || @ownpage.image.persisted?
-          = link_to edit_user_ownpage_path, class:"BaseShow__user__name__edit" do
-            編集
+          = link_to new_user_ownpage_path, class:"BaseShow__user__name__edit" do
+            編集d
         -# - else
         -#   = link_to new_user_ownpage_path, class: "BaseShow__user__name__edit" do
         -#     編集

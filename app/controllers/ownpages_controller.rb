@@ -44,6 +44,11 @@ class OwnpagesController < ApplicationController
     end
   end
 
+  def default_page
+    user = User.find(params[:id])
+    @name = user.name
+  end
+
   private
 
     def set_user

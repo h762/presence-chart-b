@@ -3,8 +3,15 @@
     name
     - @user.each do |i|
       .Bottom__user__nameBox
-        = link_to user_ownpage_path(i.id), class: "Bottom__user__nameBox__name" do
-          = i.name
+        -# = link_to user_ownpage_path(i.id), class: "Bottom__user__nameBox__name" do
+        -#   = i.name
+        -# - if @ownpage.content != nil || @ownpage.image.persisted?
+        - if @ownpage.find(i.id).persisted?
+          = link_to user_ownpage_path(i.id), class: "Bottom__user__nameBox__name" do
+            = i.name
+        - else 
+          = link_to default_page_user_ownpage_path(i.id), class: "Bottom__user__nameBox__name" do
+            = i.name
   .Bottom__schedule
     .Bottom__schedule__body
       = render "chart"
