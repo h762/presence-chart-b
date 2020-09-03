@@ -28,15 +28,12 @@ class OwnpagesController < ApplicationController
   end
 
   def edit
-    # @ownpage = Ownpage.find(params[:user_id])
     @ownpage = Ownpage.find(current_user.id)
     # @ownpage.image.new
   end
 
   def update
-    # binding.pry
     @ownpage = Ownpage.find(current_user.id)
-    # @ownpage = Ownpage.find(params[:id])
     if @ownpage.update(ownpage_params)
       redirect_to root_path, notice: "ok"
     else
