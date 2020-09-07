@@ -1,9 +1,8 @@
 class OwnpagesController < ApplicationController
   before_action :set_user, only: [:new, :show, :edit, :upload]
-  before_action :make_ownpage, only: [:show]
+  # before_action :make_ownpage, only: [:show]
 
   def new
-    # binding.pry
     @ownpage = Ownpage.new
     # @ownpage.image.new
     # @ownpage = @user.ownpage.new
@@ -57,10 +56,10 @@ class OwnpagesController < ApplicationController
       params.require(:ownpage).permit(:image, :content).merge(user_id: current_user.id)
     end
 
-    def make_ownpage
-      # redirect_to action: :new if Ownpage.find(current_user.id).nil?
-      # if @user.name == current_user.name
-      #   redirect_to action: :new if Ownpage.find(current_user.id).nil?
-      # end
-    end
+    # def make_ownpage
+    #   redirect_to action: :new if Ownpage.find(current_user.id).nil?
+    #   if @user.name == current_user.name
+    #     redirect_to action: :new if Ownpage.find(current_user.id).nil?
+    #   end
+    # end
 end
