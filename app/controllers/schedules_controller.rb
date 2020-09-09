@@ -4,7 +4,6 @@ class SchedulesController < ApplicationController
     @user = Schedule.new
     @user = User.all
     # @ownpage = Ownpage.find(params[:user_id])
-    @ownpage = Ownpage.find(@user.ids)
-    # permit nil and devide whether nil or not
+    # @ownpage = Ownpage.find(@user.ids)
   end 
 end

@@ -18,7 +18,7 @@ class OwnpagesController < ApplicationController
   end
   
   def show
-    unless Ownpage.find(current_user.id).present?
+    if Ownpage.find(params[:user_id]).blank
       redirect_to new_user_ownpage_path
     end
     # @ownpage = Ownpage.find(current_user.id)
