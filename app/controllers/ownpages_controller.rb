@@ -5,7 +5,6 @@ class OwnpagesController < ApplicationController
   def new
     @ownpage = Ownpage.new
     # @ownpage.image.new
-    # @ownpage = @user.ownpage.new
   end
 
   def create
@@ -18,9 +17,11 @@ class OwnpagesController < ApplicationController
   end
   
   def show
-    if Ownpage.find(params[:user_id]).blank
-      redirect_to new_user_ownpage_path
-    end
+    # redirect_to default_page_user_ownpage_path
+    # return
+    # if Ownpage.find(params[:user_id]).blank
+    #   redirect_to new_user_ownpage_path
+    # end
     # @ownpage = Ownpage.find(current_user.id)
     # @user = User.find(params[:user_id])
     @ownpage = Ownpage.find(params[:user_id])
@@ -43,6 +44,9 @@ class OwnpagesController < ApplicationController
   def default_page
     user = User.find(params[:id])
     @name = user.name
+    if Ownpage.find(params[:user_id]).presisted
+      redirect_to user_ownpage_path
+    end
   end
 
   private
