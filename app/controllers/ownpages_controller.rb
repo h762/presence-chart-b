@@ -22,8 +22,6 @@ class OwnpagesController < ApplicationController
     # if Ownpage.find(params[:user_id]).blank
     #   redirect_to new_user_ownpage_path
     # end
-    # @ownpage = Ownpage.find(current_user.id)
-    # @user = User.find(params[:user_id])
     @ownpage = Ownpage.find(params[:user_id])
   end
 
